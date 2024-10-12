@@ -1,0 +1,74 @@
+.portfolio-section {
+  padding: 40px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #ff007a, #6a00ff);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень для секции */
+  margin: 20px; /* Отступы между секциями */
+  color: white; /* Цвет текста */
+}
+
+.portfolio-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.portfolio-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.portfolio-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.portfolio-card {
+  background: linear-gradient(135deg, #ff007a, #6a00ff, #00c6ff); /* Исходный градиент */
+  background-size: 400% 400%; /* Размер для анимации */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s;
+  width: 300px;
+  color: white; /* Цвет текста внутри карточки */
+  animation: gradientAnimation 6s ease infinite; /* Анимация градиента */
+}
+
+.portfolio-card a {
+  text-decoration: none;
+  color: inherit; /* Убираем подчеркивание и наследуем цвет */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* Заполняем всю высоту карточки */
+}
+
+.portfolio-card:hover {
+  transform: translateY(-5px);
+}
+
+.portfolio-card h3 {
+  margin: 10px 15px;
+  font-size: 1.5rem;
+}
+
+.portfolio-card p {
+  padding: 0 15px 15px;
+  font-size: 1rem;
+}
+
+/* Анимация градиента */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

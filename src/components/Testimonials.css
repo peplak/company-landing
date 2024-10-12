@@ -1,0 +1,52 @@
+.testimonials-section {
+    background: linear-gradient(135deg, #f9c74f, #90be6d); /* Градиентный фон для секции отзывов */
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень для секции */
+    margin: 20px; /* Отступы между секциями */
+    color: white; /* Цвет текста */
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+  }
+  
+  .testimonial-content {
+    max-width: 600px; /* Максимальная ширина контента */
+    margin: 0 20px; /* Добавляем отступы по бокам */
+  }
+  
+  .testimonial-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .testimonial-content h4 {
+    font-size: 1rem;
+    color: #fff; /* Цвет имени */
+  }
+  
+  .testimonial-button {
+    background: none; /* Убираем фоновый цвет */
+    border: none; /* Убираем границу */
+    cursor: pointer; /* Курсор в виде указателя */
+    color: white; /* Цвет стрелок */
+    font-size: 2rem; /* Размер стрелок */
+    width: 50px; /* Фиксированная ширина */
+    height: 50px; /* Фиксированная высота */
+    transition: color 0.3s; /* Плавный переход для цвета */
+  }
+  
+  .testimonial-button:hover {
+    color: #ddd; /* Эффект наведения */
+  }
+  
+  

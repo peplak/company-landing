@@ -1,0 +1,63 @@
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #90be6d, #f94144); /* Градиентный фон для секции контактов */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень для секции */
+    margin: 20px; /* Отступы между секциями */
+    color: white; /* Цвет текста */
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрируем форму */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 500px; /* Максимальная ширина формы */
+    padding: 15px;
+    margin: 10px 0;
+    border: none; /* Убираем стандартный бордер */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form input {
+    background: white; /* Цвет фона для инпутов */
+    color: #333; /* Цвет текста */
+  }
+  
+  .contact-form textarea {
+    background: white; /* Цвет фона для текстовой области */
+    color: #333; /* Цвет текста */
+    resize: vertical; /* Позволяем изменять размер только по вертикали */
+  }
+  
+  .contact-form button {
+    background: #4a90e2; /* Цвет кнопки */
+    color: white; /* Цвет текста на кнопке */
+    border: none; /* Убираем стандартный бордер */
+    border-radius: 5px;
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    font-size: 1.2rem;
+    cursor: pointer; /* Курсор при наведении */
+    transition: background 0.3s; /* Плавный переход цвета фона */
+  }
+  
+  .contact-form button:hover {
+    background: #007bb8; /* Цвет кнопки при наведении */
+  }
+  
