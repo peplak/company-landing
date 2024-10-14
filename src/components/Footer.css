@@ -1,0 +1,13 @@
+.footer {
+    background-color: #000; /* Черный фон */
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+    border-top: 1px solid #ff007a; /* Оранжевый акцент */
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  

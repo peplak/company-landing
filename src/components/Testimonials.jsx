@@ -30,7 +30,7 @@ const Testimonials = () => {
   };
 
   return (
-    <section className="testimonials-section">
+    <section className="testimonials-section" id='testimonials'>
       <h2>Отзывы клиентов</h2>
       <div className="testimonial-container">
         <button className="testimonial-button left" onClick={prevTestimonial}>&#9664;</button> {/* Левый символ стрелки */}

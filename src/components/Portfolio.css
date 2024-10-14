@@ -1,11 +1,11 @@
 .portfolio-section {
   padding: 40px 20px;
   text-align: center;
-  background: linear-gradient(135deg, #ff007a, #6a00ff);
+  background: linear-gradient(15deg, #ff007a, #6a00ff);
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень для секции */
   margin: 20px; /* Отступы между секциями */
-  color: white; /* Цвет текста */
+  color: #fff; /* Цвет текста */
 }
 
 .portfolio-section h2 {

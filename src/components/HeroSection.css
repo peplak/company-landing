@@ -1,0 +1,49 @@
+.hero-section {
+  background: url('../img/bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  cursor: help;
+  user-select: none; /* Запрещает выделение текста */
+  -webkit-user-select: none; /* Для браузеров на базе WebKit (Chrome, Safari) */
+  -moz-user-select: none; /* Для Firefox */
+  -ms-user-select: none; /* Для IE/Edge */
+  
+}
+
+.hero-nav a {
+  margin: 0 15px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+}
+
+.contact-us {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 110px;
+  height: 65px;
+  background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Parental_Advisory_label.svg/800px-Parental_Advisory_label.svg.png') center center;
+  background-size: cover;
+  cursor: pointer;
+
+}
+
+.contact-us a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none; /* Убираем стандартное подчеркивание */
+}

@@ -1,11 +1,11 @@
 .contact-section {
     padding: 40px 20px;
     text-align: center;
-    background: linear-gradient(135deg, #90be6d, #f94144); /* Градиентный фон для секции контактов */
+    background: linear-gradient(160deg, #f9c74f, #f9e24f, #90be6d ); /* Градиентный фон для секции контактов */
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень для секции */
     margin: 20px; /* Отступы между секциями */
-    color: white; /* Цвет текста */
+    color: #333333; /* Цвет текста */
   }
   
   .contact-section h2 {

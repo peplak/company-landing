@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Play', sans-serif;
   background: linear-gradient(135deg, #4a90e2, #f9c74f); /* Градиентный фон для всего приложения */
   color: #333; /* Цвет текста по умолчанию */
+  
 }
 
 * {
@@ -22,5 +23,5 @@ h1, h2, h3, h4, h5, h6 {
 /* Добавляем отступы для основных секций */
 section {
   padding: 20px;
-  margin: 20px 0;
+  margin: 0;
 }

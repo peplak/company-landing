@@ -1,11 +1,11 @@
 .testimonials-section {
-    background: linear-gradient(135deg, #f9c74f, #90be6d); /* Градиентный фон для секции отзывов */
+    background: linear-gradient(135deg, #f9c74f, #f37228 ); /* Градиентный фон для секции отзывов */
     padding: 40px 20px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Тень для секции */
     margin: 20px; /* Отступы между секциями */
-    color: white; /* Цвет текста */
+    color: #333333; /* Цвет текста */
   }
   
   .testimonials-section h2 {
@@ -31,7 +31,7 @@
   
   .testimonial-content h4 {
     font-size: 1rem;
-    color: #fff; /* Цвет имени */
+    color: #9013fe; /* Цвет имени */
   }
   
   .testimonial-button {
